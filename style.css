@@ -1,0 +1,30 @@
+*{
+    
+}
+
+h1{
+    background-color: bisque;  
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height: 1.3em;
+     
+}
+#two
+{
+    text-align: center;
+    background-color: blueviolet;
+}
+.four{
+    background-color: blue;
+    color: white;
+}
+.web33{
+    background-color: aqua;
+}
+#span {
+    background-color: yellow;
+}
+#test1{
+    color: brown;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

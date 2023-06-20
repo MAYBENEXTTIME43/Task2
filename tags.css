@@ -1,0 +1,42 @@
+.menu{
+display: flex;
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+position: absolute;
+width: 655px;
+height: 19px;
+left: 226px;
+top: 21px;
+
+
+
+
+}
+li a{
+    margin-left: 20px;
+    color: aliceblue;
+}
+.asd{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 8px 10px;
+gap: 10px;
+position: absolute;
+width: 155px;
+height: 36px;
+left: 1227px;
+top: 33px;
+background: #018ABE;
+border-radius: 3px;
+color: white;
+}
+ h1,h2{
+    color: white;
+ }   
+
+

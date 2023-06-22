@@ -38,5 +38,39 @@ color: white;
  h1,h2{
     color: white;
  }   
+.aad{
+position: absolute;
+width: 336px;
+height: 59px;
+top: 790px;
+left: 792px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-size: 42px;
+font-weight: 700;
+line-height: 140%;
+text-align: center;
+color: aliceblue;
+}
+.list1{
+background-image: url(./list1.png);
+width: 28px;
+height: 14px;
+top: 845px;
+left: 719px;
+border-radius: 0px 50px 0px 50px;
+position: absolute;
 
+}
+.list2{
+background-image: url(./list2.png);
+width: 28px;
+height: 14px;
+top: 845px;
+left: 1140px;
+border-radius: 0px 50px 0px 50px;
+rotate:180º;
 
+    
+    position: absolute;
+}

@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        ul{
+            list-style:upper-latin url(/png.png);
+        }
+         p::before{
+            content: "Start";
+         }   
+         P::before{
+            content: url(/png.png);
+         }
+         p::after{
+            content: " END";
+         }   
+    </style>
 </head>
 <body>
     <header>
@@ -37,13 +51,42 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam eligendi quam praesentium. Adipisci harum numquam optio, dignissimos maxime deserunt officiis reprehenderit distinctio odio unde, qui ipsa neque a exercitationem.</p>
 <P class="NON">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, est sed libero asperiores exercitationem dolores sit. Reprehenderit voluptatem cupiditate maxime at asperiores ea quam ducimus, placeat eveniet corrupti, fugit veritatis.</P>
   
+    <ol start="5">
+    <li>Один</li>
+    <li>два</li>
+    <li>ьтри</li>
+    <li>четыре</li>
+    <li>пять</li>
+    <li>шесть</li>
+
+</ol>
+<ol>
+
+    <ul>1</ul>
+    <ul>2</ul>
+    <ul>3</ul>
+    <ul>4</ul>
+    <ul>5</ul>
+    <ul>6</ul>
+</ol>
+<div class="dddt">
+<dt>1</dt>
+<dd>2</dd>
+<dt>3</dt>
+<dd>4</dd>
+
+</div>
 <button class="NON"></button></div>
 
   <div id="web"></div>
-  
-        </main>
-        <footer>
-        Копирайт, контакт, «про автора»
-        </footer
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita,</p>
+<p id="pip">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum dolore perferendis provident repellat! Recusandae fugiat sit neque eius voluptates laudantium quaerat deleniti adipisci soluta, nulla animi ipsa iusto distinctio quo!</p>
+<p id="pip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed tempora quia explicabo expedita odit incidunt debitis neque, dolore ab architecto rem voluptate? Nam necessitatibus inventore consectetur molestias, nisi qui culpa!</p>
+</main>
+  <footer>
+    <h3>footer</h3>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nulla ab deserunt ut perspiciatis. Autem laudantium consequatur quae, labore, quibusdam illum fugit tempore unde enim placeat exercitationem fugiat esse mollitia.</P>
+  </footer>
+
 </body>
 </html>

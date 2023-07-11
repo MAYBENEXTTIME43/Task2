@@ -328,3 +328,30 @@ border-radius: 10px;
         top: 441px;
         left: 880px;
     }
+                           /* Отзывы */
+.fedd{
+position: absolute;
+width: 1736px;
+height: 585px;
+top: 920px;
+left: 2px;
+}
+h2#name-fedd{
+    position: absolute;
+    width: 300px;
+    height: 59px;
+    top: 739px;
+    left: 810px;
+    border-radius: 0px 50px 0px 50px;
+}
+h2#name-fedd:before{
+    content: url(./6.png);
+    position: absolute;
+    right: 272px;
+}
+
+h2#name-fedd:after{
+    content: url(./7.png);
+    position: absolute;
+    left: 272px;
+}

@@ -317,12 +317,10 @@ border-radius: 10px;
     .block5:hover{
         position: absolute;
         background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(./5.png) no-repeat center, #8E8E8E;
-        border-radius: 10px;
-        
+        border-radius: 10px; 
         border-bottom-width: 7px;
         border-bottom-style: solid;
         border-bottom-color: #028ABE;
-    
         width: 415px;
         height: 258px;
         top: 441px;

@@ -67,3 +67,57 @@ transition: background-color 0.5s ease-out,width 1s ease-in-out;}
 background-color: red;
 width: 300px;
 }
+#anim1{
+background-color: black;
+width: 30vw;
+color: #fff;
+animation: myAnim 5s linear 1s reverse infinite;
+}
+@keyframes myAnim{
+0% {
+margin-left: 0%;
+}
+30%{
+background-color: blue;
+}
+100% {
+margin-left: 500px;
+}
+}
+body{
+background-color: #b6cbe8;
+background-image: url(./cloud.png);
+animation: cloud 10s linear infinite;
+}
+@keyframes cloud {
+    0% {
+        background-position-x: 0px;
+    }
+    50%{
+        background-color: gray;}
+    100% {
+    background-position-x: 500px;
+    }
+}
+.loader-container{
+    width: 400px;
+    height: 400px;
+background-color: bisque;}
+    .loader{
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: 50%;
+        margin: auto;
+        animation: loader 1s ease infinite;
+      }
+
+@keyframes loader {
+    0%, 100% {
+      box-shadow: -10px 15px 0 #ffffff, 10px 15px 0 rgba(0, 0, 0, 0.2), 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 rgba(255, 255, 255, 0.2); }
+    25% {
+      box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 #ffffff, 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 rgba(255, 255, 255, 0.2); }
+    50% {
+      box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 rgba(255, 255, 255, 0.2), 10px 36px 0 #ffffff, -10px 36px 0 rgba(255, 255, 255, 0.2); }
+    75% {
+      box-shadow: -10px 15px 0 rgba(255, 255, 255, 0.2), 10px 15px 0 rgba(255, 255, 255, 0.2), 10px 36px 0 rgba(255, 255, 255, 0.2), -10px 36px 0 #ffffff; } }

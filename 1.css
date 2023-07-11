@@ -1,0 +1,36 @@
+.my-element{
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    transition: all 0.8s ease-in;
+    border-radius: 10px;
+    text-align: center;
+    transform: translate(550px, 250px);
+    
+}
+    .my-element:hover{
+    width: 800px;
+    background-color: #7da5e6;
+    font-size: 2.1rem;
+    color: #00d3b0;
+    transition-duration: 0.8s, 1s;
+    transition-delay: 0s;
+    transform: rotate(3600deg);
+    }
+    .el{
+    margin: 100px auto 0 auto;
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+
+    }
+    .el:hover{
+    color: blanchedalmond;
+    height: 400px;
+    width: 400px;
+    transform: scale(1.5);
+    background-image: url(./Group\ 18\ \(1\).png);
+    perspective: 23rem;
+    transform-origin: left;
+    }
+    

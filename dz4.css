@@ -10,6 +10,19 @@ background-color: #162831;
 color: white;
 }
 
+a{
+    text-decoration: none;
+}
+h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
 /* Меню */
 
 
@@ -25,6 +38,21 @@ header img{
 nav{
 margin: 30px auto 0 auto;
 }
+.W{
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 326px;
+    top: 43.51px;
+    background-image: url(./W.png);
+}
+.logo{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 312px;
+    top: 30px;
+    background-image: url(./logo.png);}
 nav  a{
 color:white;
 margin-left: 50px;
@@ -53,9 +81,250 @@ border-radius: 10px;
     width: 241px;
     height: 34px;
     font-size: 24px;
-    margin: 200px auto 0 auto;
+    margin: 15px auto 0 auto;
      }
      .heads_logo h1{
     margin-top: 20px;
     font-size: 64px;
      }
+    /* Сеансы RitmStyle */
+    div.service{
+        position: absolute;
+        top: 890px;
+        left: 312px;
+    }
+    
+    h2#photo-service{
+        position: absolute;
+        width: 482px;
+        left: 427px;
+    }
+    
+    h2#photo-service:before{
+        content: url(./6.png);
+        position: absolute;
+        right: 452px;
+    }
+    
+    h2#photo-service:after{
+        content: url(./7.png);
+        position: absolute;
+        left: 452px;
+    }
+    
+    .block1{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(./1.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+        background-size: auto 540px;
+    
+        width: 416px;
+        height: 540px;
+        top: 159px;
+    }
+    
+    .block1 a{
+        display: block;
+        width: 416px;
+        height: 540px;
+    }
+    
+    .block1 span{
+        color: #fff;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+    
+        position: absolute;
+        top: 456px;
+        left: 50px;
+    }
+    
+    .block1:hover{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(./1.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+        background-size: auto 540px;
+        border-bottom-width: 7px;
+        border-bottom-style: solid;
+        border-bottom-color: #028ABE;
+        width: 416px;
+        height: 540px;
+        top: 159px;
+    }
+    
+    .block2{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(./2.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+        width: 415px;
+        height: 258px;
+        top: 159px;
+        left: 440px;
+    }
+    
+    .block2 a{
+        display: block;
+        width: 415px;
+        height: 258px;
+    }
+    
+    .block2 span{
+        color: #fff;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        
+        position: absolute;
+        top: 194px;
+        left: 40px;
+    }
+    
+    .block2:hover{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(./2.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+        
+        border-bottom-width: 7px;
+        border-bottom-style: solid;
+        border-bottom-color: #028ABE;
+    
+        width: 415px;
+        height: 258px;
+        top: 159px;
+        left: 440px;
+    }
+    
+    .block3{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(./3.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+    
+        width: 415px;
+        height: 258px;
+        top: 441px;
+        left: 440px;
+    }
+    
+    .block3 a{
+        display: block;
+        width: 415px;
+        height: 258px;
+    }
+    
+    .block3 span{
+        color: #fff;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        
+        position: absolute;
+        top: 218px;
+        left: 40px;
+    }
+    
+    .block3:hover{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(./3.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+        
+        border-bottom-width: 7px;
+        border-bottom-style: solid;
+        border-bottom-color: #028ABE;
+    
+        width: 415px;
+        height: 258px;
+        top: 441px;
+        left: 440px;
+    }
+    
+    .block4{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(./4.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+    
+        width: 415px;
+        height: 258px;
+        top: 159px;
+        left: 880px;
+    }
+    
+    .block4 a{
+        display: block;
+        width: 415px;
+        height: 258px;
+    }
+    
+    .block4 span{
+        color: #fff;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        
+        position: absolute;
+        top: 160px;
+        left: 40px;
+    }
+    
+    .block4:hover{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(./4.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+        
+        border-bottom-width: 7px;
+        border-bottom-style: solid;
+        border-bottom-color: #028ABE;
+    
+        width: 415px;
+        height: 258px;
+        top: 159px;
+        left: 880px;
+    }
+    
+    .block5{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(./5.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+    
+        width: 415px;
+        height: 258px;
+        top: 441px;
+        left: 880px;
+    }
+    
+    .block5 a{
+        display: block;
+        width: 415px;
+        height: 258px;
+    }
+    
+    .block5 span{
+        color: #fff;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        
+        position: absolute;
+        top: 160px;
+        left: 40px;
+    }
+    
+    .block5:hover{
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(./5.png) no-repeat center, #8E8E8E;
+        border-radius: 10px;
+        
+        border-bottom-width: 7px;
+        border-bottom-style: solid;
+        border-bottom-color: #028ABE;
+    
+        width: 415px;
+        height: 258px;
+        top: 441px;
+        left: 880px;
+    }

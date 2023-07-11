@@ -58,3 +58,12 @@ footer{
     margin-top: -20px;
     margin-left: 40px;
 }
+.element{
+background-color: blue;
+width: 200px;
+height: 200px;
+transition: background-color 0.5s ease-out,width 1s ease-in-out;}
+.my-element:active{
+background-color: red;
+width: 300px;
+}
